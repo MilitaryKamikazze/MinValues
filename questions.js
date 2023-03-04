@@ -3,7 +3,7 @@ questions = [
     question:
       "It is necessary for the government to intervene in the economy to protect consumers.",
     effect: {
-      econ: 10,
+      econ: 5,
       dipl: 0,
       govt: 0,
       scty: 0
@@ -15,7 +15,7 @@ questions = [
     effect: {
       econ: 0,
       dipl: 0,
-      govt: 40,
+      govt: 5,
       scty: 0
     }
   },
@@ -23,15 +23,25 @@ questions = [
     question: "The government should have stricter controls on immigration.",
     effect: {
       econ: 0,
-      dipl: -10,
-      govt: -10,
+      dipl: -5,
+      govt: -5,
+      scty: 0
+    }
+  },
+    {
+    question:
+      "The government should not interfere with individuals' pursuit of their own self-interest, even if it leads to inequality.",
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
       scty: 0
     }
   },
   {
     question: "The free market is the best way to promote economic growth.",
     effect: {
-      econ: -10,
+      econ: -5,
       dipl: 0,
       govt: 0,
       scty: 0
@@ -41,8 +51,8 @@ questions = [
     question: "Access to firearms should be restricted to reduce gun violence.",
     effect: {
       econ: 0,
-      dipl: 10,
-      govt: -10,
+      dipl: 5,
+      govt: -5,
       scty: 0
     }
   },
@@ -50,9 +60,19 @@ questions = [
     question:
       "The government should provide universal healthcare to all citizens.",
     effect: {
-      econ: 10,
+      econ: 5,
       dipl: 0,
       govt: 0,
+      scty: 0
+    }
+  },
+      {
+    question:
+      "Individuals should always prioritize their own self-interest over the interests of others.",
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 5,
       scty: 0
     }
   },
@@ -60,10 +80,10 @@ questions = [
     question:
       "Climate change is a real and pressing issue that requires government action.",
     effect: {
-      econ: 5,
+      econ: 2.5,
       dipl: 0,
       govt: 0,
-      scty: 10
+      scty: 5
     }
   },
   {
@@ -73,15 +93,15 @@ questions = [
       econ: 0,
       dipl: 0,
       govt: 0,
-      scty: -10
+      scty: -5
     }
   },
   {
     question: "You support the LGBTQ+ community.",
     effect: {
-      econ: 10,
+      econ: 5,
       dipl: 0,
-      govt: 10,
+      govt: 5,
       scty: 0
     }
   },
@@ -89,10 +109,10 @@ questions = [
     question:
       "Oppression by corporations is more of a concern than oppression by governments.",
     effect: {
-      econ: 10,
+      econ: 5,
       dipl: 0,
       govt: 0,
-      scty: -5
+      scty: -2.5
     }
   },
   {
@@ -100,7 +120,7 @@ questions = [
     effect: {
       econ: 0,
       dipl: 0,
-      govt: -10,
+      govt: -5,
       scty: 0
     }
   },
@@ -111,7 +131,7 @@ questions = [
       econ: 0,
       dipl: 0,
       govt: 0,
-      scty: -10
+      scty: -5
     }
   },
     {
@@ -119,7 +139,7 @@ questions = [
     effect: {
       econ: 0,
       dipl: 0,
-      govt: 20,
+      govt: 10,
       scty: 0
     }
   },
@@ -127,7 +147,7 @@ questions = [
     question:
       "Work places should be worker owned.",
     effect: {
-      econ: 5,
+      econ: 2.5,
       dipl: 0,
       govt: 0,
       scty: 0

@@ -121,7 +121,7 @@ questions = [
       econ: 5,
       dipl: 0,
       govt: 5,
-      scty: 0
+      scty: -10
     }
   },
   {

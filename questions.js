@@ -125,7 +125,7 @@ questions = [
   },
     {
     question:
-      "It is necessary for the government to intervene in the economy to protect consumers.",
+      "Work places should be worker owned.",
     effect: {
       econ: 5,
       dipl: 0,

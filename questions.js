@@ -9,6 +9,16 @@ questions = [
       scty: 0
     }
   },
+    {
+    question:
+      "The very existance of the state is a threat to our liberty.",
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 40,
+      scty: 0
+    }
+  },
   {
     question: "The government should have stricter controls on immigration.",
     effect: {
@@ -103,5 +113,14 @@ questions = [
       govt: 0,
       scty: -10
     }
-  }
+  },
+    {
+    question: "The death penalty should be abolished.",
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 20,
+      scty: 0
+    }
+  },
 ];

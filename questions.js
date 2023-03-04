@@ -57,10 +57,29 @@ questions = [
     }
   },
   {
+    question: "Taxation is theft.",
+    effect: {
+      econ: -5,
+      dipl: 0,
+      govt: 0,
+      scty: 0
+    }
+  },
+  {
     question:
       "The government should provide universal healthcare to all citizens.",
     effect: {
       econ: 5,
+      dipl: 0,
+      govt: 0,
+      scty: 0
+    }
+  },
+    {
+    question:
+      "Capitalism is the best ideology because it lets the fittest survive.",
+    effect: {
+      econ: -5,
       dipl: 0,
       govt: 0,
       scty: 0
